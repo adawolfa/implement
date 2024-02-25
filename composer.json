@@ -1,0 +1,36 @@
+{
+	"name": "adawolfa/implement",
+	"type": "library",
+	"description": "Implementation generator for interfaces and abstract classes.",
+	"license": ["MIT"],
+	"authors": [
+		{
+			"name": "Adam Klvač",
+			"homepage": "https://klva.cz",
+			"email": "adam@klva.cz"
+		}
+	],
+	"require": {
+		"php": ">=8.3",
+		"nette/php-generator": "^4.1"
+	},
+	"require-dev": {
+		"phpunit/phpunit": "~10.5.10",
+		"phpstan/phpstan": "~1.10.59"
+	},
+	"autoload": {
+		"psr-4": {
+			"Adawolfa\\Implement\\": "src/"
+		}
+	},
+	"autoload-dev": {
+		"psr-4": {
+			"Tests\\Adawolfa\\Implement\\": "tests/Implement/"
+		}
+	},
+	"extra": {
+		"branch-alias": {
+			"dev-master": "1.0.x-dev"
+		}
+	}
+}

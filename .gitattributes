@@ -1,0 +1,4 @@
+tests/ export-ignore
+.*     export-ignore
+*.json export-ignore
+*.neon export-ignore

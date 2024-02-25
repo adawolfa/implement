@@ -1,0 +1,9 @@
+parameters:
+	level: 9
+	paths:
+		- src
+	ignoreErrors:
+		-
+			message: "#^Dead catch \\- ReflectionException is never thrown in the try block\\.$#"
+			count: 2
+			path: src/Generator.php
